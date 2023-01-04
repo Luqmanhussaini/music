@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Righteous&family=Sevillana&display=swap'); 
+body{
+    background-color: hsl(226, 49%, 32%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color:aliceblue;
+    height: 70px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none; 
+    align-items: center;
+
+}
+.brand img{
+    width: 50px;
+    padding: 0px 10px;
+    margin-top: 10px;
+
+}
+.brand{
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+nav ul li{
+    /* border: 2px solid blue; */
+    margin-right :20px ;
+
+}
+.container{
+    min-height: 66.5vh;
+    border-radius: 30px;
+    color: aqua;
+    background-color: black;
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-image: url('musbg.jpg');
+    background-size: 70%;
+    background-position: right;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+.songs{
+    margin-top: 5px;
+    border-radius: 30px;
+    width: 50%;
+    height: 60vh;
+    /* border: 2px solid gold; */
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+.itemsongs{
+    background-color: #ea10108a;
+    display: flex;
+    height: 5vh;
+    width: 35vw;
+    position: relative;
+    margin: 15px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.timer{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.itemsongs img{
+    cursor: pointer;
+    margin-left: 10px;
+    height: 85%;
+    width: 10%;
+    border-radius: 30%;
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#range-bar{
+    width: 80vw;
+}
+.edit{
+    margin: 0px 10px;
+    font-size: xx-large;
+}
